@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing Background</title>
+	<link rel="stylesheet" href="styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+        <h1 class="font">Changing Background</h1>
+    </header>
+    <main>
+      <article class="grid-container">
+        <div class="grid-helper">
+          <h2 class="font">About:</h2>
+          <p class="font">This website uses the location time and changes the background during the day.</p>
+        </div>
+        <div class="grid-helper">
+          <form method="post" name="form_cityDetails" id="form_cityDetails" enctype="multipart/form-data" onsubmit="return false;">
+            <h2 class="font">Try an other location and see the difference!</h2>
+            <input type="text" value="" id="city" placeholder="Please enter your city here to see it work.">
+          </form>
+          
+        </div>
+        <div id="world">
+        </div>
+      </article>
+    </main>
+    <footer>
+
+    </footer>
+	</body>
+</html>
